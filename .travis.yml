@@ -434,7 +434,7 @@ script:
   # DUE default config test
   #############################
 
-  - export TEST_PLATFORM="-e DUE"
+  - export TEST_PLATFORM="-e \"DUE native port\""
   - restore_configs
   - opt_set MOTHERBOARD BOARD_RAMPS4DUE_EFB
   - cp Marlin/Configuration.h Marlin/src/config/default/Configuration.h
