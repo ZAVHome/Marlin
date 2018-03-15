@@ -194,6 +194,7 @@
  * The fan will turn on automatically whenever any stepper is enabled
  * and turn off after a set period after all steppers are turned off.
  */
+// !!!_ZAV
 //#define USE_CONTROLLER_FAN
 #if ENABLED(USE_CONTROLLER_FAN)
   //#define CONTROLLER_FAN_PIN -1        // Set a custom pin for the controller fan
@@ -944,6 +945,7 @@
  * You will need to import the TMC26XStepper library into the Arduino IDE for this
  * (https://github.com/trinamic/TMC26XStepper.git)
  */
+// !!!_ZAV
 //#define HAVE_TMCDRIVER
 
 #if ENABLED(HAVE_TMCDRIVER)
@@ -1019,6 +1021,7 @@
  * in your `pins_MYBOARD.h` file. (e.g., RAMPS 1.4 uses AUX3 pins `X_CS_PIN 53`, `Y_CS_PIN 49`, etc.).
  * You may also use software SPI if you wish to use general purpose IO pins.
  */
+// !!!_ZAV
 //#define HAVE_TMC2130
 
 /**
